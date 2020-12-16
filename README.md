@@ -1,2 +1,2 @@
 # MoneyConversion_Application
- A small application that converts CAD to USD, Pounds or Euros
+ A small application that converts CAD to USD, Pounds or Euros and vice versa.
