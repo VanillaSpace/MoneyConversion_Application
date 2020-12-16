@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Web Form - Registeration</title>
+    <link rel="stylesheet" type="text/css" href="css/styleSheet.css" />
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+
+    <div id="pan1">
+
+        <form id="frm">
+            <!--Header-->
+            <div class="header">
+                <p>International<br> Exchange Office</p>
+            </div>
+
+            <!--Body-->
+            <div class="body">
+                
+                <div class="inputs">
+               <p>Select Currency<br> 
+                    <select id="currency-1" onChange="showCurrency()">
+                        <option value="1 CAD = 0.79 USD , 1 USD = 1.27 CAD">USA</option>
+                        <option value="1 CAD = 0.6 Pounds, 1 Pound = 1.65 CAD">UK</option>
+                        <option value="1 CAD = 0.67 Euro, 1 Euro = 1.5 CAD">France</option>
+                    </select>
+
+                </p>
+                <p id="currencyinfo"></p>
+                </div>
+                
+               
+
+                <div class="radio">
+                    <p>Conversion: </p>
+                    <p>
+                        <input id="CAD" type="radio" name="pick one" value="CAD to currency" onChange="enableBTN()">
+                        <label>CAD to the Currency</label>
+                    </p>
+
+                    <p>
+                        <input id="NONCAD" type="radio" name="pick one" value="Currency to CAD" onChange="enableBTN()">
+                        <label>Currency to CAD</label>
+                    </p>
+                    <p><span id="vGender"></span></p>
+                </div>
+
+            
+            </div>
+            <div class="footer">
+                <div class="form-group mb-2">
+                    Enter the amount: <input type="text" id="amount" placeholder="enter the amount"/>
+                 </div>
+                 <center>
+                    <button id="convertBTN" type="button" disabled onclick="convert()">Convert>></button>
+                    <input type="reset" value="Reset">
+                
+                <p id="converetedInfo"></p><br>
+            </center>
+            </div>
+
+
+
+        </form>
+
+    </div>
+
+
+
+</body>
+
+
+</html>

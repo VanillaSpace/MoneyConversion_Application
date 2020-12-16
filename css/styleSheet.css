@@ -1,0 +1,92 @@
+#frm, 
+#display{
+
+    background-color:grey;
+    padding:20px;
+    width:800px;
+    margin:auto;
+    font-size:120%;
+}
+
+#frm .header,
+#frm .body,
+#frm .footer{
+
+    border: 1px solid black;
+    padding:5px 20px;
+    background-color: whitesmoke;
+    margin:10px;
+}
+
+#frm .header p{
+
+    border: 2px gray solid;
+    margin:auto;
+    text-align: center;
+    padding:10px;
+    font-size: 30px;
+    font-weight:bold;
+    font-style: italic;
+    color:black;
+}
+
+.inputs{
+    border:1px #000 solid;
+    width: 100%; //40%
+    display:inline-block;
+}
+
+.inputs p{
+    margin: 20px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    color: #000;
+}
+
+.radio, .checkBx{
+    border: 1px solid #000;
+    width: 100%;
+    display:inline-block;
+    margin-left: 0px;
+    vertical-align:top;
+    padding-top: 10px;
+}
+
+.footer input{
+    padding: 7px 20px;
+    background-color:grey;
+    border:none;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 10px 0;
+    color: #000;
+
+}
+
+.footer input[type="submit"]{
+    float: right;
+}
+
+
+#display{
+    visibility:hidden;
+}
+
+p1{
+	font-size: 30px;
+	text-transform:uppercase;
+	
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
